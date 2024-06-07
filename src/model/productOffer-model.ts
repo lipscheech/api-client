@@ -1,0 +1,23 @@
+export type ProductOffer = {
+  productName?: string;
+  itemId?: number;
+  commissionRate?: string;
+  commission?: string;
+  price?: string;
+  sales?: number;
+  imageUrl?: string;
+  shopName?: string;
+  productLink?: string;
+  offerLink?: string;
+  periodStartTime?: number;
+  periodEndTime?: number;
+  priceMin?: string;
+  priceMax?: string;
+  productCatIds?: number[];
+  ratingStar?: string;
+  priceDiscountRate?: number;
+  shopId?: number;
+  shopType?: number[];
+  sellerCommissionRate?: string;
+  shopeeCommissionRate?: string;
+};
